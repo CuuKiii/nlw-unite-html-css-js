@@ -1,6 +1,6 @@
 # nlw-unite-html-css-js
 <p align="center">
-  <img alt="Logo NLW Expert - Rocketseat" src=".github/logo.png" width="200px" />
+  <img alt="Logo NLW Expert - Rocketseat" src="[.github/logo.png](https://github.com/rocketseat-education/nlw-unite-html-css-js/blob/main/.github/logo.png)" width="200px" />
 </p>
 
 <p align="center">
