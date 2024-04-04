@@ -146,15 +146,6 @@ const adicionarParticipante = (event) => {
   event.target.querySelector('[name="email"]').value = ""
 }
 
-
-  participantes = [participante, ...participantes]
-  atualizarLista(participantes)
-
-  // limpar o formulario
-  event.target.querySelector('[name="nome"]').value = ""
-  event.target.querySelector('[name="email"]').value = ""
-
-
 const fazerCheckIn = (event) => {
   // confirmar se quer o check-in
   const mensagemConfirmacao = 'Tem certeza que deseja fazer o check-in?' 
