@@ -19,7 +19,7 @@ let participantes = [
   },
   {
     nome: "Enrico Alcantara",
-    email: "enrigay@gmail.com",
+    email: "enrico@gmail.com",
     dataInscricao: new Date(2023, 11, 4, 19, 23),
     dataCheckIn: new Date(2023, 11, 5, 20, 20)
   },
