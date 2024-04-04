@@ -122,7 +122,7 @@ const adicionarParticipante = (event) => {
     dataCheckIn: null  
   }
 
-  // verificar se o particpante já existe
+  // verificar se o participante já existe
   const participanteExiste = participantes.find(
     (p) => p.email == participante.email
   )
@@ -141,14 +141,14 @@ const adicionarParticipante = (event) => {
 }
 
 const fazerCheckIn = (event) => {
-  // confirmar se realmente quer o check-in
+  // confirmar se quer o check-in
   const mensagemConfirmacao = 'Tem certeza que deseja fazer o check-in?' 
 
   if(confirm(mensagemConfirmacao) == false) {
     return
   }
 
-  // encontrar o participante dentro da lista
+  // encontrar o participante na lista
   const participante = participantes.find(
     (p) => p.email == event.target.dataset.email  
   )
